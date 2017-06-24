@@ -10,6 +10,7 @@ import { MdButtonModule, MdCheckboxModule } from '@angular/material';
 import 'hammerjs';
 
 
+
 @NgModule({
   declarations: [
     AppComponent
@@ -18,7 +19,7 @@ import 'hammerjs';
     BrowserModule,
     FormsModule,
     HttpModule,
-    NgbModule.forRoot()
+    NgbModule.forRoot(),
     BrowserAnimationsModule,
     MdButtonModule,
     MdCheckboxModule
