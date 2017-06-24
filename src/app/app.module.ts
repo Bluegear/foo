@@ -6,7 +6,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
-import { MdButtonModule, MdCheckboxModule } from '@angular/material';
+import { MdButtonModule, MdCheckboxModule, MdToolbarModule } from '@angular/material';
 import 'hammerjs';
 
 
@@ -22,9 +22,10 @@ import 'hammerjs';
     NgbModule.forRoot(),
     BrowserAnimationsModule,
     MdButtonModule,
-    MdCheckboxModule
+    MdCheckboxModule,
+    MdToolbarModule
   ],
-  exports: [MdButtonModule, MdCheckboxModule],
+  exports: [MdButtonModule, MdCheckboxModule, MdToolbarModule],
   providers: [],
   bootstrap: [AppComponent]
 })
