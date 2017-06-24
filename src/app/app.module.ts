@@ -4,7 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
-import { MdButtonModule, MdCheckboxModule, MdToolbarModule } from '@angular/material';
+import { MdButtonModule, MdCheckboxModule } from '@angular/material';
 import 'hammerjs';
 
 @NgModule({
@@ -17,10 +17,9 @@ import 'hammerjs';
     HttpModule,
     BrowserAnimationsModule,
     MdButtonModule,
-    MdCheckboxModule,
-    MdToolbarModule
+    MdCheckboxModule
   ],
-  exports: [MdButtonModule, MdCheckboxModule, MdToolbarModule],
+  exports: [MdButtonModule, MdCheckboxModule],
   providers: [],
   bootstrap: [AppComponent]
 })
